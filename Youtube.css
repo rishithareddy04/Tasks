@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+}
+
+#nav_one {
+  flex-basis: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+#nav_one > i {
+  font-size: 20px;
+}
+#logo {
+  height: 25px;
+  width: 120px;
+}
+sup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#nav_two {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav_two > input {
+  height: 40px;
+  width: 550px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.263);
+}
+#nav_two > input:focus {
+  outline: 1px solid blue;
+}
+#search_container {
+  border: 1px solid rgba(0, 0, 0, 0.263);
+  height: 40px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  right: 55px;
+}
+#mic_container {
+  border: 1px solid rgba(0, 0, 0, 0.302);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  right: 35px;
+}
+#nav_three {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#nav_three > button {
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+}
+#nav_three > i {
+  font-size: 23px;
+}
+#user {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: purple;
+  color: white;
+}
